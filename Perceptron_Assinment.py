@@ -98,7 +98,7 @@ def main():
             if X3[i,4] != 'Iris-versicolor':
                 ErrorsTest+=1
 
-    f = open('Connor_Macdonald_Assignment1_Output.txt','w')
+    f = open('Output.txt','w')
     f.write('Running double perceptron on test data:\n\n')
     for i in Virginica :
         f.write('Point: %s\n'%i[0:3])
